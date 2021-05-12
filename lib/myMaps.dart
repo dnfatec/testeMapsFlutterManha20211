@@ -46,7 +46,7 @@ class _MapasState extends State<Mapas> {
   }
 
   Future <void> _suaCasa() async{
-    print("entrou");
+    print("entrou e atualizou via git");
     final GoogleMapController controller = await _controller.future;
     Location location = new Location();
     bool _serviceEnabled;
